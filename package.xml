@@ -1,0 +1,19 @@
+<package format="2">
+  <name>pupil_ros_plugin</name>
+  <version>0.0.1</version>
+  <description>
+  This package provides plugin of Pupil software that communicates with ROS environment
+  </description>
+  <license>BSD</license>
+  <maintainer email="lqian8@jhu.edu">Long Qian</maintainer>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  
+  <exec_depend>message_runtime</exec_depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+</package>

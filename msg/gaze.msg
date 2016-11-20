@@ -1,0 +1,6 @@
+float64 confidence
+geometry_msgs/Point norm_pos
+geometry_msgs/Point gaze_point_3d
+geometry_msgs/Point gaze_normal_3d
+float64 pupil_timestamp
+geometry_msgs/Point eye_center_3d

@@ -1,0 +1,7 @@
+<launch>
+	<node pkg="pupil_ros_plugin" type="pupil_zmq_ros_pub.py" name="Pupil_ZMQ_ROS" args="localhost 50020"/>
+
+	<node pkg="image_view" type="image_view" name="world" args="image:=/pupil_capture/world" />
+	<node pkg="image_view" type="image_view" name="eye0" args="image:=/pupil_capture/eye/0" />
+	<!-- <node pkg="image_view" type="image_view" name="eye1" args="image:=/pupil_capture/eye/1" /> -->
+</launch>
