@@ -1,6 +1,6 @@
 Pupil ROS Plugin
 ===
-Author: [Long Qian](https://longqian.me/aboutme)
+Author: [Long Qian](http://longqian.me/aboutme)
 
 Date: 2016-11-19
 
